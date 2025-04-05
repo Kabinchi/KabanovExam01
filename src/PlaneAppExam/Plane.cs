@@ -11,5 +11,12 @@ namespace PlaneAppExam
         public string Model { get; set; }
         public double MaxRange { get; set; }
         public double CruiseSpeed { get; set; }
+
+        public Plane(string model, double maxRange, double cruiseSpeed)
+        {
+            Model = model;
+            MaxRange = maxRange;
+            CruiseSpeed = cruiseSpeed;
+        }
     }
 }
